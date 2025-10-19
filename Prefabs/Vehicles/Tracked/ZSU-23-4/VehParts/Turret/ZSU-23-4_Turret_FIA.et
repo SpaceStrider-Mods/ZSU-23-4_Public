@@ -1,0 +1,35 @@
+Turret : "{787CA918AB7AC5FC}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{632B3B36ABBBC3FC}" {
+     SourceMaterial "zsu234_shilka_turret"
+     AssignedMaterial "{0FBE53A2D68D2E21}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu234_shilka_turret_FIA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62DB1E0246065DFB}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{59BA9CCD47C51A48}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{62DB38710D0D5232}" {
+   Slots {
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{A20B52A9CFC209FD}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Commanders_Turret_FIA.et"
+    }
+   }
+  }
+ }
+ coords 135.932 1 1249.21
+}

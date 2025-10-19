@@ -1,0 +1,16 @@
+GenericEntity : "{1D7174C97DF571DC}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Base.et" {
+ ID "5B2AD5B9801EB74E"
+ components {
+  SCR_ArsenalComponent "{62E49621E34C5C95}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{62E496210FD844DE}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{6572040F5D8637B3}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_ItemResourceName "{77BE902FBDC43F40}Prefabs/Weapons/Magazines/Box_23x152_ZSU_2000rnd_1APIT_1HEFT.et"
+     }
+    }
+   }
+  }
+ }
+}

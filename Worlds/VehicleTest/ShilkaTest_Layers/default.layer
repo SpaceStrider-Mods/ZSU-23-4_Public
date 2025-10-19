@@ -1,0 +1,151 @@
+Turret {
+ coords 56.719 1 36.022
+}
+GenericEntity : "{003036C854E0DC48}Prefabs/Weapons/AircraftWeapons/MachineGuns/MachineGuns_UPK23_Dual.et" {
+ coords 55.77 1 6.883
+}
+GenericEntity : "{13FFE925C92BF1D7}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Radar/VehPart_Radar_FIA.et" {
+ coords 80.42 1 29.902
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 91.7 1 54.758
+}
+Tank ZSU_23_4_Radar1 : "{28AACA9B9F572748}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Radar.et" {
+ coords 77.139 1 21.637
+}
+Turret : "{2D55ED0EE3DE063E}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_Radar.et" {
+ coords 68.214 1 23.399
+}
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 86.598 1 22.42
+}
+$grp GenericEntity : "{34C419E837CC103E}Prefabs/Weapons/HeavyWeapons/HMG_AZP23.et" {
+ {
+  coords 72.572 1 37.563
+ }
+ {
+  coords 69.616 1 13.161
+ }
+ {
+  coords 58.537 1 29.746
+ }
+ {
+  coords 69.03 1.765 7.582
+ }
+}
+Vehicle Ural4320_ammo_FIA1 : "{3F5D19AC3C7E20DC}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo_FIA.et" {
+ coords 78.803 1 40.139
+}
+GenericEntity : "{3F88768B1328B675}Prefabs/Particles/Bullet_Case/Bullet_Case_23x152_ZSU.et" {
+ coords 65.118 1 7.555
+}
+Turret : "{41355F66055C299A}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_FIA.et" {
+ coords 72.295 1 30.325
+}
+GenericEntity : "{4806031CDE5B1927}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/LowerGun_Fake/VehPart_LowerGunFake.et" {
+ coords 65.031 1 10.968
+}
+Vehicle S1203_base1 : "{4AE9D080927D3CB9}Prefabs/Vehicles/Wheeled/S1203/S1203_base.et" {
+ coords 120.242 1 123.44
+}
+Vehicle BTR70_SmokeLauncherExample1 : "{4B9050627EBE3CFC}Prefabs/Vehicles/Wheeled/BTR70/BTR70_SmokeLauncherExample.et" {
+ coords 73.409 1 14.069
+}
+Vehicle Mi8MT_armed_upk1 : "{55B4044D7422667E}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_upk23.et" {
+ components {
+  SCR_HelicopterCinematicFlyComponent "{64EB7D2B6D48E560}" {
+  }
+ }
+ coords 36.806 1 98.26
+}
+$grp GenericEntity : "{77BE902FBDC43F40}Prefabs/Weapons/Magazines/Box_23x152_ZSU_2000rnd_1APIT_1HEFT.et" {
+ {
+  coords 71.274 1 7.148
+ }
+ {
+  coords 70.059 1 8.622
+ }
+ {
+  coords 96.668 1 28.185
+ }
+ {
+  coords 95.416 1 30.023
+ }
+ {
+  coords 74.819 1.403 36.905
+ }
+ {
+  coords 75.464 1 37.936
+ }
+}
+Turret : "{787CA918AB7AC5FC}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret.et" {
+ coords 72.176 1 23.362
+}
+Tank ZSU_23_4_Radar_FIA1 : "{7CFFF924ECF6299B}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Radar_FIA.et" {
+ coords 77.519 1 30.003
+}
+GenericEntity : "{85FA621B61AA5BD9}Prefabs/Weapons/HeavyWeapons/HMG_KPVT.et" {
+ coords 69.986 1 8.704
+}
+Tank ZSU_23_4_Base1 : "{914A69C7F7E8C04E}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Base.et" {
+ coords 82.481 1 21.653
+}
+GenericEntity : "{97998DDADD46CD9E}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Radar/VehPart_Radar.et" {
+ coords 79.759 1.827 21.8
+}
+Vehicle UAZ452_base1 : "{988A61BA68420AFE}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_base.et" {
+ coords 72.683 1 114.915
+}
+GenericEntity : "{9CEA10E8ABCFA5C3}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_Magazine_KVPT.et" {
+ coords 63.32 1 11.668
+}
+Turret : "{A20B52A9CFC209FD}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Commanders_Turret_FIA.et" {
+ coords 75.23 1 31.371
+}
+GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
+ components {
+  ProcAnimComponent "{5A4ED832D66CA486}" {
+   Parameters {
+    ProcAnimParams "{5A4ED832D0272DD6}" {
+     ResourceName "{998CCA3CC2BF7124}Assets/Vehicles/Tracked/ZSU-23-4/proc/ZSU-23-4_Radar.pap"
+    }
+   }
+  }
+ }
+ coords 37.167 1 60.308
+}
+$grp GenericEntity : "{A6B6E4E648164C4C}Prefabs/Weapons/HeavyWeapons/HMG_AZP23_Base.et" {
+ {
+  coords 71.467 1.921 8.511
+ }
+ {
+  coords 73.863 1.71 36.779
+ }
+}
+GenericEntity : "{A6D94E6DA64E439B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/ZSU-23-4_driver_window.et" {
+ coords 77.338 1 31.165
+}
+Turret : "{AB5E1171EF73FC9B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_Radar_FIA.et" {
+ coords 67.64 1 29.53
+}
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 63.179 1 23.026
+}
+Turret : "{BE54EE61ED03C69B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Commanders_Turret.et" {
+ coords 74.944 1 22.961
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 72.077 1 46.475
+}
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ coords 66.358 1 39.369
+}
+GenericEntity : "{E554A8BE4BAA9D52}Prefabs/Particles/Bullet_Case/Bullet_Case_127x108_NSV.et" {
+ coords 67.425 1 7.927
+}
+Turret : "{EFCDB4128245B544}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_SmokeExample.et" {
+ coords 66.075 1 13.822
+}
+Tank ZSU_23_4_FIA1 : "{FA0264E8B4FB0E5A}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_FIA.et" {
+ coords 82.693 1 29.942
+}

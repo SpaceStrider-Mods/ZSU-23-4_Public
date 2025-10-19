@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9516AF803D2E0437}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu234_wheels.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

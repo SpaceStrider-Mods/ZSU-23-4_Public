@@ -1,0 +1,15 @@
+MatPBRBasic {
+ AlphaTest 0.2
+ RoughnessScale 2
+  TCModFuncs {
+  TCModShift "{5C709E85FA253C86}" {
+   ShiftV 0.0
+   Refs {
+    "ShiftV" "Tank.m_LeftTrack"
+	}
+  }
+ }
+ BCRMap "{4C3B92E09E1DE1AA}Assets/Vehicles/Tracked/ZSU-23-4/Data/Textures/zsu-23-4_shilka_tracks_flat_BCR.edds"
+ OpacityMap "{EB5A43B80429DE1E}Assets/Vehicles/Tracked/ZSU-23-4/Data/Textures/zsu-23-4_shilka_tracks_flat_A.edds"
+ NMOMap "{74E32972476AB334}Assets/Vehicles/Tracked/ZSU-23-4/Data/Textures/zsu-23-4_shilka_tracks_flat_NMO.edds"
+}

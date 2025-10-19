@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1.6
+ BCRMap "{5879056FCE293B96}Assets/Vehicles/Tracked/ZSU-23-4/Data/Textures/zsu-23-4_shilka_hull_BCR.edds"
+ NMOMap "{60A1BEFD175E6908}Assets/Vehicles/Tracked/ZSU-23-4/Data/Textures/zsu-23-4_shilka_hull_NMO.edds"
+}

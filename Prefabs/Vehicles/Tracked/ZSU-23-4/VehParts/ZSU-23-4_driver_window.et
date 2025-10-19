@@ -1,0 +1,8 @@
+GenericEntity : "{0214528AD21C9AF9}Prefabs/Vehicles/Wheeled/BTR70/Dst/BTR70_window_base.et" {
+ ID "54ACA4E7EDB33945"
+ components {
+  MeshObject "{54ACA4E7F43678F8}" {
+   Object "{D2D265A20BBC9627}Assets/Vehicles/Tracked/ZSU-23-4/zsu-23-4_shilka_driverwindow.xob"
+  }
+ }
+}

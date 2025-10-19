@@ -1,0 +1,26 @@
+Tank : "{7938ACA75F276460}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Igla.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65AF6C175A9B14B5}" {
+     SourceMaterial "zsu234_shilka_hull"
+     AssignedMaterial "{2051FF24E0387A4E}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu234_shilka_hull_FIA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{35D1EBE648AC3193}UI/Textures/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Igla_FIA.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{103E9D89E0C81815}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_Radar_Igla_FIA.et"
+    }
+   }
+  }
+ }
+ coords -21.255 0.817 0.802
+}

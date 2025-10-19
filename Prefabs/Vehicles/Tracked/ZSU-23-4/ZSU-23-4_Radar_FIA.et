@@ -1,0 +1,45 @@
+Tank : "{28AACA9B9F572748}Prefabs/Vehicles/Tracked/ZSU-23-4/ZSU-23-4_Radar.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{632B3B37A13B8C6F}" {
+     SourceMaterial "zsu234_shilka_hull"
+     AssignedMaterial "{2051FF24E0387A4E}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu234_shilka_hull_FIA.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62E16333D84D5E5D}" {
+      m_sDefaultOccupantPrefab "{641AD7731E23454B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Crew.et"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{BB261B9ED0FD43A2}UI/Textures/Vehicles/Tracked/ZSU-23-4/ZSU_23_4_Radar_FIA.edds"
+    m_sFaction "FIA"
+    m_aAutoLabels {
+     12 122
+    }
+    m_aOccupantFillCompartmentTypes {
+     0 1 2
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{AB5E1171EF73FC9B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_Radar_FIA.et"
+    }
+   }
+  }
+ }
+ coords 146.615 1 1249.031
+}

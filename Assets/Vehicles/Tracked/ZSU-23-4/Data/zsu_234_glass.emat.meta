@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C4D25EB953C4362D}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu_234_glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
