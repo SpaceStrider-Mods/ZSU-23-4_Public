@@ -1,0 +1,170 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "hatchcover"
+   tl -312 -1
+   children {
+    6
+   }
+  }
+  IOPItemInputClass {
+   id 3
+   name "hatch"
+   tl -310 150
+   children {
+    7
+   }
+  }
+  IOPInputValueClass {
+   id 5
+   name "Value 5"
+   tl -287 -90
+   children {
+    6 7
+   }
+   value 120
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 6
+   name "Mul 6"
+   tl -99 -1
+   children {
+    9
+   }
+   inputs {
+    ConnectionClass connection {
+     id 5
+     port 0
+    }
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 7
+   name "Mul 7"
+   tl -107 151
+   children {
+    10
+   }
+   inputs {
+    ConnectionClass connection {
+     id 5
+     port 0
+    }
+    ConnectionClass connection {
+     id 3
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 9
+   name "Smoother 9"
+   tl 133 0
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 6
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 10
+   name "Smoother 10"
+   tl 114 149
+   children {
+    4
+   }
+   inputs {
+    ConnectionClass connection {
+     id 7
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "hatchcover"
+   tl 353 7
+   input 9
+  }
+  IOPItemOutputClass {
+   id 4
+   name "hatch"
+   tl 365 167
+   input 10
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   261 133 139 391 134 5 11 263 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 65539
+    }
+   }
+   IOPCompiledIn {
+    data {
+     2 3 65539
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 131075 4 131072 0 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 196611 4 131072 0 65536 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 2 2 1 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 65538 2 65537 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 9
+  version 2
+  ops_reeval_list {
+   2 3
+  }
+ }
+}

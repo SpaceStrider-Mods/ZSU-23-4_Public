@@ -1,0 +1,18 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{8D374FA9C510133F}Assets/Vehicles/Tracked/ZSU-23-4/zsu-23-4_shilka_cannon_lower.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    HitZone Gun {
+     HZDefault 1
+    }
+   }
+  }
+  RplComponent "{63136787FD0BCE14}" {
+   "Rpl State Override" Runtime
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AB5E1171EF73FC9B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret_Radar_FIA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

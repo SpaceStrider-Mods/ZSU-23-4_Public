@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A678881787CFF506}Prefabs/Vehicles/Tracked/ZSU-23-4/Configs/ShilkaWheel.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,51 @@
+Turret : "{787CA918AB7AC5FC}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Parameters {
+    ProcAnimParams "{632B3B3B5DE2F653}" {
+     ResourceName "{998CCA3CC2BF7124}Assets/Vehicles/Tracked/ZSU-23-4/proc/ZSU-23-4_Radar.pap"
+     BoneNames {
+      "v_radar_base_01"
+     }
+     SimulationDistance 1000
+     AlwaysSimulateOwner 1
+    }
+   }
+  }
+  TurretComponent "{62DB1E0246065D9D}" {
+   components {
+    SCR_2DSightsComponent "{62DB1E0246065D90}" {
+     m_bShouldHideParentObject 0
+    }
+   }
+  }
+  WCS_Armament_RadarComponent "{62E14707E9271641}" {
+   Enabled 1
+   m_fMaxAngle 45
+   m_fScanInterval 1
+  }
+  WCS_Armament_RadarInfoComponent "{62E14707E888A99F}" {
+   Enabled 1
+  }
+  SlotManagerComponent "{62DB38710D0D5232}" {
+   Slots {
+    RegisteringComponentSlotInfo CommanderTurret {
+     PivotID "v_commander_turret_01"
+     MergePhysics 1
+     ChildPivotID "v_commander_turret_01"
+     Prefab "{BE54EE61ED03C69B}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/ZSU-23-4_Commanders_Turret.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterCompartments 1
+    }
+    EntitySlotInfo Radar {
+     Enabled 1
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+ coords 68.214 1 23.399
+}

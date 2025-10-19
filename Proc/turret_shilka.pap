@@ -1,0 +1,287 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 3076
+   name "Traverse/Elevation"
+   tl -792.714 -671.571
+   res "{8A2A79C52997F54F}anims/proc/turret.siga"
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2 4
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    -180 -45
+   }
+   inputvaluesmax {
+    180 45
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass {
+   id 2054
+   name "Elevation"
+   tl -530.096 -531.714
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 3076
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 5126
+   name "RotationSet 3078"
+   tl -309.286 -850.857
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 6150
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 20486
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass {
+   id 6150
+   name "Traverse"
+   tl -528.095 -761.667
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 3076
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 7174
+   name "RotationSet 6150"
+   tl -304.857 -624.429
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 21510
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 14342
+   name "v_gun_02"
+   version 0
+   tl -532.143 -394.286
+   outs {
+    15366
+   }
+   bone "v_gun_02"
+  }
+  RotationSetClass {
+   id 15366
+   name "RotationSet 15366"
+   tl -302.857 -394.286
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 14342
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 16390
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass {
+   id 16390
+   name "Elevation"
+   tl -530.476 -302.857
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 3076
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    15366
+   }
+  }
+  BoneClass {
+   id 20486
+   name "v_turret_01"
+   version 0
+   tl -533.333 -851.667
+   outs {
+    5126
+   }
+   bone "v_turret_01"
+  }
+  BoneClass {
+   id 21510
+   name "v_gun_01"
+   version 0
+   tl -530 -625
+   outs {
+    7174
+   }
+   bone "v_gun_01"
+  }
+ }
+ model "{A102004EDEEBD96D}Assets/Vehicles/Tracked/ZSU-23-4/VehParts/Turret/zsu-23-4_shilka_turret.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1025 385 897 129 769 513 641 257 1
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 131072 0 458752 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 0 0 524288 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 262144 0 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 196608 0
+    }
+   }
+  }
+  version 2
+  argsize 15
+ }
+}

@@ -1,0 +1,35 @@
+GameProject {
+ ID "ZSU-23-4"
+ GUID "62D15D0025AE021B"
+ TITLE "ZSU-23-4 Shilka"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6" "629B2BA37EFFD577"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{62DF42024B8B66E0}" {
+      StringTableSource "{39224A9AAA5224AD}Language/ZSU-23-4.st"
+      Languages {
+       LanguageDefinition "{62DF450482E61947}" {
+        Code "en_us"
+        StringTableRuntime "{B82343A4F10AED11}Language/ZSU-23-4.en_us.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

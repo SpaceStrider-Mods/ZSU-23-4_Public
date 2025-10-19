@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4806031CDE5B1927}Prefabs/Vehicles/Tracked/ZSU-23-4/VehParts/LowerGun_Fake/VehPart_LowerGunFake.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

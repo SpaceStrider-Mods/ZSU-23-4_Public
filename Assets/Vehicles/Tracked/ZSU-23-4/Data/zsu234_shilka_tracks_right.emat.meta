@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{543F793D417897A1}Assets/Vehicles/Tracked/ZSU-23-4/Data/zsu234_shilka_tracks_right.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

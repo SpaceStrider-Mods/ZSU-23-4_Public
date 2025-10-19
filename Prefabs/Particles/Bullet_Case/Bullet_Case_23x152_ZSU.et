@@ -1,0 +1,13 @@
+GenericEntity : "{BE79A6E700CF746A}Prefabs/Particles/Bullet_Case/Bullet_Case_Base.et" {
+ ID "5AD06B4660E94833"
+ components {
+  MeshObject "{5AC2D35718C1EEDD}" {
+   Object "{9B589DAAF86B7D22}Assets/Weapons/Ammo/Bullets/127x108/case_127x108_NSV.xob"
+  }
+  SCR_ParticleContactComponent "{5AD06B4611C6C9BD}" {
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{5C52D5B18B5BE9EC}" {
+    m_sSoundProject "{89007306B1C60C07}Sounds/Weapons/_SharedData/Weapon_Bullet_Casings_23mm.acp"
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BE54EE61ED03C69B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/ZSU-23-4_Commanders_Turret.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
